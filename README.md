@@ -71,8 +71,8 @@ also choose the node which you want to send your transactions to, through the
 Run your node:
 
 ```sh
-bazuka node --listen 0.0.0.0:8765 --external [your external ip]:8765 \
-  --network debug --db ~/.bazuka-debug --bootstrap [bootstrap node 1] --bootstrap [bootstrap node 2] ...
+bazuka node --listen 0.0.0.0:8765 --external 86.48.0.161:8765 \
+  --network debug --db ~/.bazuka-debug --bootstrap 78.27.151.192:8765 --bootstrap 85.237.32.204:8765 ...
 ```
 
 You can use the nodes introduced by the community as your `--bootstrap` nodes.
